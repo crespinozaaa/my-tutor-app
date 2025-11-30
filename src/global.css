@@ -1,0 +1,7 @@
+/* global.css limpio para probar */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000; /* da lo mismo, el contenido lo pintamos desde App */
+}
+
