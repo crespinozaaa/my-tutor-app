@@ -47,3 +47,26 @@
 }
 
 }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-background-color: #0b1220;
+    --ion-text-color: #e5e7eb;
+    --ion-card-background: #0f172a;
+
+    /* 🔹 mejora contraste de pestañas y labels */
+    --ion-color-step-600: #cbd5e1;
+    --ion-color-step-700: #d1d5db;
+  }
+
+  /* 🔹 Ajusta el color de texto de los tabs o segmentos */
+  ion-segment-button,
+  ion-label,
+  .segment-button-checked {
+    color: #e5e7eb !important;
+  }
+
+  ion-segment-button[aria-selected="true"] {
+    color: #60a5fa !important; /* azul más brillante para el tab activo */
+    font-weight: 600;
+  }
+}

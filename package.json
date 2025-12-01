@@ -12,6 +12,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@capacitor/android": "^7.4.4",
     "@capacitor/app": "7.1.0",
     "@capacitor/camera": "^7.0.2",
     "@capacitor/core": "7.4.4",
@@ -32,6 +33,7 @@
     "react-router-dom": "^5.3.4"
   },
   "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
     "@capacitor/cli": "7.4.4",
     "@testing-library/dom": ">=7.21.4",
     "@testing-library/jest-dom": "^5.16.5",
@@ -42,6 +44,7 @@
     "@types/react-dom": "19.0.4",
     "@vitejs/plugin-legacy": "^5.0.0",
     "@vitejs/plugin-react": "^4.0.1",
+    "cordova-res": "^0.15.4",
     "cypress": "^13.5.0",
     "eslint": "^9.20.1",
     "eslint-plugin-react": "^7.32.2",
